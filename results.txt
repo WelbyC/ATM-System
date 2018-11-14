@@ -1,0 +1,49 @@
+BankofA (Two customers)
+Customer with Cash Card (bankid: A, acount number (#11), expires on 9/27/18 password: dookie
+Customer with Cash Card (bankid: A, acount number (#12), expires on 12/1/19 password: cookie
+
+BankofB (Three customers)
+Customer with Cash Card (bankid: B, acount number (#1), expires on 8/1/18 password: poopy
+Customer with Cash Card (bankid: B, acount number (#2), expires on 9/30/20 password: poopity
+Customer with Cash Card (bankid: B, acount number (#3), expires on 10/13/19 password: poopity scoop
+
+State of ATMs
+
+(ATMs of Bank A)
+ATM1_A: 
+  Max withdraw per interaction: $50 
+ATM2_A: 
+  Max withdraw per interaction: $50 
+
+(ATMs of Bank B)
+ATM1_B: 
+  Max withdraw per interaction: $50 
+ATM2_B: 
+  Max withdraw per interaction: $50 
+
+
+ATM Options: ATM1_A, ATM1_B, ATM2_A, ATM2_B
+Enter your choice of ATM:
+atm1_a
+Enter your card
+a1
+This card is not supported by this ATM
+a11
+This card is expired and returned to you.
+Enter your card
+a12
+The card is accepted. Please enter your password.
+poop
+This is a wrong password. Enter your password.
+cookie
+Authorization is accepted. Start your transaction by entering the amount to withdraw.
+60
+This amount exceeds the maximum amount you can withdraw per transaction. Please enter the amount or quit.
+0
+Invalid input
+30
+30 is withdrawn from  your account. The remaining balance of this account is 20.  If you have more transactions, enter the amount or quit.
+50
+This amount exceeds the current balance. Enter another amount or quit.
+quit
+You have quit to menu
